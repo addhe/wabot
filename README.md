@@ -8,8 +8,10 @@ $ virtualenv -p python3 /tmp/wabot_virt_env
 $ source /tmp/wabot_virt_env/bin/activate
 
 # let's install the requirement
-$ pip install -r requirements.txt
+$ pip install -r requirement.txt
 
+# let's run the apps
+$ python ./whatsapp.bot.py
 
 notes:
 - feel free to use any virtual environment technique and location
