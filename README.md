@@ -10,6 +10,12 @@ $ source /tmp/wabot_virt_env/bin/activate
 # let's install the requirement
 $ pip install -r requirement.txt
 
+# Install chromedriver
+$ brew install chromedriver
+
+# Mac Only
+$ spctl --add --label 'Approved' /usr/local/bin/chromedriver
+
 # update your contact list and messages in this csv file
 $ vim my_wa_contacts.csv 
 

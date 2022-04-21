@@ -10,7 +10,7 @@ import csv
 chrome_options = Options()
 chrome_options.add_argument("user-data-dir=selenium")
 
-browser = webdriver.Chrome("/opt/homebrew/bin/chromedriver",chrome_options=chrome_options)
+browser = webdriver.Chrome("/usr/local/bin/chromedriver",chrome_options=chrome_options)
 browser.get("https://web.whatsapp.com")
 
 wait = WebDriverWait(browser,600)
